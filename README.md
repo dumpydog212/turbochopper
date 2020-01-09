@@ -1,2 +1,5 @@
 # turbochopper
-script for HTML tag conversion to XML for DITA
+
+A work in progress.
+
+Used to convert a limited set of HTML tags to valid XML topics for FrameMaker DITA.
