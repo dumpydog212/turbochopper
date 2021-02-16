@@ -14,6 +14,36 @@
 # The above copyright notice and this permission notice shall be included
 # in all copies or substantial portions of the Software.
 
+"""! @brief Example Python script with Doxygen style comments."""
+
+##
+# @mainpage About Turbochopper
+#
+# @section description_main What does Turbochopper do?
+# Turbochopper is a python script that takes one long HTML file and grossly prepares it for use with a DITA publishing tool. 
+# Turbochopper wraps the content of one H1 tag and its p tags in a valid XML topic element. It also names each file and outputs the topics in a directory.
+#
+# @section description_rationale Why use Turbochopper?
+# Turbochopper can save you time for proof of concept projects. 
+# For example, when working with a team of developers who already were collaborating to produce documentation using
+# Google Docs, I exported the user guide as HTML, ran Turbochopper, and then groomed the topics in Structured FrameMaker (DITA). 
+# Next, I made a DITA map and output these docmentation deliverables: 
+#   - PDF
+#   - HTML
+#
+# Even though Turbochopper's capabilities are quite limited, it did save me a significant amount of file preparation time.
+#
+# @section description_start Getting Started
+#   -# Get Turbochopper from GitHub (@ref https://github.com/dumpydog212/turbochopper)
+#   -# Set these variables in turbo_chopper.py:
+#       - _filename_, which is the name of the HTML source file.
+#       - _source_folder_, which is the relative path to the location of the HTML source file.
+#       - _output_root_, which is the location to which you want tubochopper to write.
+#   -# Run the script.
+#
+# (c) 2021 Kristi Conley. All rights reserved.
+
+# Imports
 import os
 import sys
 
